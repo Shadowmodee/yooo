@@ -1,0 +1,279 @@
+.container {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #eee;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+  
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Modal Styling */
+.modal-dialog {
+  position: auto;
+  top: 30%;
+  right: 10px;
+  left: 0;
+}
+
+.modal-body {
+	overflow:auto;
+	overflow-y:auto;
+	height:450px;
+}
+
+/*.wrap1 .box-hidden1 , .wrap2 .box-hidden2 , .wrap3 .box-hidden3 , .wrap4 .box-hidden4{
+  display: none;
+}
+
+.wrap5 .box-hidden5 , .wrap6 .box-hidden6 , .wrap .box-hidden , .wrap01 .box-hidden01{
+	display: none;
+}*/
+
+.load0 , .load1 , .load2 , .load3 , .load4 , .load5 , .load6 {
+  display: none;
+  cursor: pointer;
+}
+
+
+/* Modals Styling */
+.modal-body .row {
+  background-color: #ebe6e6;
+  padding: 10px;
+}
+
+.card-body p{
+  color: black;
+  font-size: 16px;
+  position: absolute;
+}
+
+img {
+  border: 1px solid black;
+}
+
+
+/*Overlay styles*/
+
+.collapse-list 
+{
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.item:hover .overlay {
+  width: 90%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 7%;
+  left: 5%;
+  right: 0;
+  background-color: #45489a;
+  overflow-y: scroll;
+  width: 0;
+  height: 70%;
+  transition: 1s ease;
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top:10%; 
+  left: 5%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0%, 0%);
+  white-space: nowrap;
+}
+
+.text li{
+	text-align:left;
+	list-style-position:left
+}
+
+.text a{
+  color: white;
+}
+
+.masonry .item h3 {
+	background-color: #45489a;
+	padding:5px;
+	color:white;
+	margin-bottom:0px;
+	height:75px;
+}
+
+
+#blog1 .tabgroup ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#blog1 .tabgroup ul li {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#blog1 .tabgroup ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+#blog1 .tabgroup ul li img {
+  float: left;
+  margin-right: 30px;
+  max-width: 40%;
+  overflow: hidden;
+}
+#blog1 .tabgroup ul li .text-content {
+  display: inline;
+}
+
+#blog1 .item .text-content h4 {
+  padding-top: 7.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#blog1 .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+#blog1 .item .text-content .accent-button {
+  margin-top: 25px;
+}
+
+
+
+
+
+
+
+/* Text Over Image */
+.textOverImage{
+  width: 600px;
+  height: 500px;
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.textOverImage > input{
+  display: none;
+}
+
+.textOverImage > div , .textOverImage > h2{
+  position: absolute;
+  background-color: rgba(255,255,255,0.8) ;
+  bottom: 20px;
+  left: 4px;
+  right: 4px;
+  padding: 8px;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.textOverImage > input:checked + h2{
+  bottom: 20px;
+  opacity: 0;
+}
+
+.textOverImage:hover > h2,.textOverImage > input:checked + h2 + div{
+  opacity: 1;
+  bottom: 4px;
+}
+
+.textOverImage > h2{
+  margin: 0;
+}
+
+.textOverImage > div{
+  font-size: x-large;
+}
+
+

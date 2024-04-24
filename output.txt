@@ -1,0 +1,365 @@
+Folder PATH listing
+Volume serial number is ECD3-BFFF
+C:.
+³   db.sqlite3
+³   index.html
+³   manage.py
+³   output.txt
+³   
+ÃÄÄÄnews
+³   ³   asgi.py
+³   ³   settings.py
+³   ³   urls.py
+³   ³   wsgi.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           settings.cpython-37.pyc
+³           settings.cpython-38.pyc
+³           urls.cpython-37.pyc
+³           urls.cpython-38.pyc
+³           wsgi.cpython-37.pyc
+³           wsgi.cpython-38.pyc
+³           __init__.cpython-37.pyc
+³           __init__.cpython-38.pyc
+³           
+ÃÄÄÄnewsui
+³   ³   admin.py
+³   ³   analyzer.py
+³   ³   apps.py
+³   ³   article.html
+³   ³   blog.html
+³   ³   models.py
+³   ³   navbar.html
+³   ³   navbar_old.html
+³   ³   newsdata.pkl
+³   ³   test.py
+³   ³   tests.py
+³   ³   urls.py
+³   ³   views.py
+³   ³   __init__.py
+³   ³   
+³   ÃÄÄÄmigrations
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           __init__.cpython-37.pyc
+³   ³           
+³   ÃÄÄÄtemplatetags
+³   ³   ³   customtags.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           customtags.cpython-37.pyc
+³   ³           __init__.cpython-37.pyc
+³   ³           
+³   ÀÄÄÄ__pycache__
+³           admin.cpython-37.pyc
+³           models.cpython-37.pyc
+³           models.cpython-38.pyc
+³           urls.cpython-37.pyc
+³           urls.cpython-38.pyc
+³           views.cpython-37.pyc
+³           views.cpython-38.pyc
+³           __init__.cpython-37.pyc
+³           __init__.cpython-38.pyc
+³           
+ÃÄÄÄstatic
+³   ÃÄÄÄcss
+³   ³   ³   bootstrap-theme.css
+³   ³   ³   bootstrap-theme.css.map
+³   ³   ³   bootstrap-theme.min.css
+³   ³   ³   bootstrap.css
+³   ³   ³   bootstrap.css.map
+³   ³   ³   bootstrap.min.css
+³   ³   ³   fontAwesome.css
+³   ³   ³   light-box.css
+³   ³   ³   main.css
+³   ³   ³   owl-carousel.css
+³   ³   ³   templatemo-style.css
+³   ³   ³   
+³   ³   ÀÄÄÄfonts
+³   ³           flexslider-icon.eot
+³   ³           flexslider-icon.svg
+³   ³           flexslider-icon.ttf
+³   ³           flexslider-icon.woff
+³   ³           
+³   ÃÄÄÄfonts
+³   ³       fontawesome-webfont.eot
+³   ³       fontawesome-webfont.svg
+³   ³       fontawesome-webfont.ttf
+³   ³       fontawesome-webfont.woff
+³   ³       fontawesome-webfont.woff2
+³   ³       FontAwesome.otf
+³   ³       glyphicons-halflings-regular.eot
+³   ³       glyphicons-halflings-regular.svg
+³   ³       glyphicons-halflings-regular.ttf
+³   ³       glyphicons-halflings-regular.woff
+³   ³       
+³   ÃÄÄÄimg
+³   ³       blog_1.jpg
+³   ³       blog_2.jpg
+³   ³       blog_3.jpg
+³   ³       close.png
+³   ³       featured_1.jpg
+³   ³       featured_2.jpg
+³   ³       featured_3.jpg
+³   ³       GPE.png
+³   ³       loading.gif
+³   ³       LOC.png
+³   ³       next.png
+³   ³       NORP.png
+³   ³       ORG.png
+³   ³       PERSON.png
+³   ³       portfolio_1.jpg
+³   ³       portfolio_2.jpg
+³   ³       portfolio_3.jpg
+³   ³       portfolio_4.jpg
+³   ³       portfolio_5.jpg
+³   ³       portfolio_big_1.jpg
+³   ³       portfolio_big_2.jpg
+³   ³       portfolio_big_3.jpg
+³   ³       portfolio_big_4.jpg
+³   ³       portfolio_big_5.jpg
+³   ³       prev.png
+³   ³       slide_1.jpg
+³   ³       slide_2.jpg
+³   ³       slide_3.jpg
+³   ³       
+³   ÀÄÄÄjs
+³       ³   main.js
+³       ³   plugins.js
+³       ³   project.js
+³       ³   
+³       ÀÄÄÄvendor
+³               bootstrap.js
+³               bootstrap.min.js
+³               jquery-1.11.2.min.js
+³               modernizr-2.8.3-respond-1.4.2.min.js
+³               npm.js
+³               
+ÀÄÄÄstuff
+    ÃÄÄÄadmin
+    ³   ÃÄÄÄcss
+    ³   ³   ³   autocomplete.css
+    ³   ³   ³   base.css
+    ³   ³   ³   changelists.css
+    ³   ³   ³   dashboard.css
+    ³   ³   ³   fonts.css
+    ³   ³   ³   forms.css
+    ³   ³   ³   login.css
+    ³   ³   ³   nav_sidebar.css
+    ³   ³   ³   responsive.css
+    ³   ³   ³   responsive_rtl.css
+    ³   ³   ³   rtl.css
+    ³   ³   ³   widgets.css
+    ³   ³   ³   
+    ³   ³   ÀÄÄÄvendor
+    ³   ³       ÀÄÄÄselect2
+    ³   ³               LICENSE-SELECT2.md
+    ³   ³               select2.css
+    ³   ³               select2.min.css
+    ³   ³               
+    ³   ÃÄÄÄfonts
+    ³   ³       LICENSE.txt
+    ³   ³       README.txt
+    ³   ³       Roboto-Bold-webfont.woff
+    ³   ³       Roboto-Light-webfont.woff
+    ³   ³       Roboto-Regular-webfont.woff
+    ³   ³       
+    ³   ÃÄÄÄimg
+    ³   ³   ³   calendar-icons.svg
+    ³   ³   ³   icon-addlink.svg
+    ³   ³   ³   icon-alert.svg
+    ³   ³   ³   icon-calendar.svg
+    ³   ³   ³   icon-changelink.svg
+    ³   ³   ³   icon-clock.svg
+    ³   ³   ³   icon-deletelink.svg
+    ³   ³   ³   icon-no.svg
+    ³   ³   ³   icon-unknown-alt.svg
+    ³   ³   ³   icon-unknown.svg
+    ³   ³   ³   icon-viewlink.svg
+    ³   ³   ³   icon-yes.svg
+    ³   ³   ³   inline-delete.svg
+    ³   ³   ³   LICENSE
+    ³   ³   ³   README.txt
+    ³   ³   ³   search.svg
+    ³   ³   ³   selector-icons.svg
+    ³   ³   ³   sorting-icons.svg
+    ³   ³   ³   tooltag-add.svg
+    ³   ³   ³   tooltag-arrowright.svg
+    ³   ³   ³   
+    ³   ³   ÀÄÄÄgis
+    ³   ³           move_vertex_off.svg
+    ³   ³           move_vertex_on.svg
+    ³   ³           
+    ³   ÀÄÄÄjs
+    ³       ³   actions.js
+    ³       ³   actions.min.js
+    ³       ³   autocomplete.js
+    ³       ³   calendar.js
+    ³       ³   cancel.js
+    ³       ³   change_form.js
+    ³       ³   collapse.js
+    ³       ³   collapse.min.js
+    ³       ³   core.js
+    ³       ³   inlines.js
+    ³       ³   inlines.min.js
+    ³       ³   jquery.init.js
+    ³       ³   nav_sidebar.js
+    ³       ³   popup_response.js
+    ³       ³   prepopulate.js
+    ³       ³   prepopulate.min.js
+    ³       ³   prepopulate_init.js
+    ³       ³   SelectBox.js
+    ³       ³   SelectFilter2.js
+    ³       ³   urlify.js
+    ³       ³   
+    ³       ÃÄÄÄadmin
+    ³       ³       DateTimeShortcuts.js
+    ³       ³       RelatedObjectLookups.js
+    ³       ³       
+    ³       ÀÄÄÄvendor
+    ³           ÃÄÄÄjquery
+    ³           ³       jquery.js
+    ³           ³       jquery.min.js
+    ³           ³       LICENSE.txt
+    ³           ³       
+    ³           ÃÄÄÄselect2
+    ³           ³   ³   LICENSE.md
+    ³           ³   ³   select2.full.js
+    ³           ³   ³   select2.full.min.js
+    ³           ³   ³   
+    ³           ³   ÀÄÄÄi18n
+    ³           ³           af.js
+    ³           ³           ar.js
+    ³           ³           az.js
+    ³           ³           bg.js
+    ³           ³           bn.js
+    ³           ³           bs.js
+    ³           ³           ca.js
+    ³           ³           cs.js
+    ³           ³           da.js
+    ³           ³           de.js
+    ³           ³           dsb.js
+    ³           ³           el.js
+    ³           ³           en.js
+    ³           ³           es.js
+    ³           ³           et.js
+    ³           ³           eu.js
+    ³           ³           fa.js
+    ³           ³           fi.js
+    ³           ³           fr.js
+    ³           ³           gl.js
+    ³           ³           he.js
+    ³           ³           hi.js
+    ³           ³           hr.js
+    ³           ³           hsb.js
+    ³           ³           hu.js
+    ³           ³           hy.js
+    ³           ³           id.js
+    ³           ³           is.js
+    ³           ³           it.js
+    ³           ³           ja.js
+    ³           ³           ka.js
+    ³           ³           km.js
+    ³           ³           ko.js
+    ³           ³           lt.js
+    ³           ³           lv.js
+    ³           ³           mk.js
+    ³           ³           ms.js
+    ³           ³           nb.js
+    ³           ³           ne.js
+    ³           ³           nl.js
+    ³           ³           pl.js
+    ³           ³           ps.js
+    ³           ³           pt-BR.js
+    ³           ³           pt.js
+    ³           ³           ro.js
+    ³           ³           ru.js
+    ³           ³           sk.js
+    ³           ³           sl.js
+    ³           ³           sq.js
+    ³           ³           sr-Cyrl.js
+    ³           ³           sr.js
+    ³           ³           sv.js
+    ³           ³           th.js
+    ³           ³           tk.js
+    ³           ³           tr.js
+    ³           ³           uk.js
+    ³           ³           vi.js
+    ³           ³           zh-CN.js
+    ³           ³           zh-TW.js
+    ³           ³           
+    ³           ÀÄÄÄxregexp
+    ³                   LICENSE.txt
+    ³                   xregexp.js
+    ³                   xregexp.min.js
+    ³                   
+    ÃÄÄÄcss
+    ³   ³   bootstrap-theme.css
+    ³   ³   bootstrap-theme.css.map
+    ³   ³   bootstrap-theme.min.css
+    ³   ³   bootstrap.css
+    ³   ³   bootstrap.css.map
+    ³   ³   bootstrap.min.css
+    ³   ³   fontAwesome.css
+    ³   ³   light-box.css
+    ³   ³   owl-carousel.css
+    ³   ³   templatemo-style.css
+    ³   ³   
+    ³   ÀÄÄÄfonts
+    ³           flexslider-icon.eot
+    ³           flexslider-icon.svg
+    ³           flexslider-icon.ttf
+    ³           flexslider-icon.woff
+    ³           
+    ÃÄÄÄfonts
+    ³       fontawesome-webfont.eot
+    ³       fontawesome-webfont.svg
+    ³       fontawesome-webfont.ttf
+    ³       fontawesome-webfont.woff
+    ³       fontawesome-webfont.woff2
+    ³       FontAwesome.otf
+    ³       glyphicons-halflings-regular.eot
+    ³       glyphicons-halflings-regular.svg
+    ³       glyphicons-halflings-regular.ttf
+    ³       glyphicons-halflings-regular.woff
+    ³       
+    ÃÄÄÄimg
+    ³       blog_1.jpg
+    ³       blog_2.jpg
+    ³       blog_3.jpg
+    ³       close.png
+    ³       featured_1.jpg
+    ³       featured_2.jpg
+    ³       featured_3.jpg
+    ³       loading.gif
+    ³       next.png
+    ³       portfolio_1.jpg
+    ³       portfolio_2.jpg
+    ³       portfolio_3.jpg
+    ³       portfolio_4.jpg
+    ³       portfolio_5.jpg
+    ³       portfolio_big_1.jpg
+    ³       portfolio_big_2.jpg
+    ³       portfolio_big_3.jpg
+    ³       portfolio_big_4.jpg
+    ³       portfolio_big_5.jpg
+    ³       prev.png
+    ³       slide_1 (4).jpg
+    ³       slide_1.jpg
+    ³       slide_2.jpg
+    ³       slide_4.jpg
+    ³       
+    ÀÄÄÄjs
+        ³   main.js
+        ³   plugins.js
+        ³   
+        ÀÄÄÄvendor
+                bootstrap.js
+                bootstrap.min.js
+                jquery-1.11.2.min.js
+                modernizr-2.8.3-respond-1.4.2.min.js
+                npm.js
+                

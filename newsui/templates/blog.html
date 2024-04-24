@@ -1,0 +1,207 @@
+{% load static %}
+
+<section id="blog" class="content-section">
+    <div class="section-heading">
+        <h1>User Defined<br><em>Buckets</em></h1>
+        <p></p>
+    </div>
+    <div class="section-content">
+        <div class="tabs-content">
+            <div class="wrapper">
+                <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                  <li><a href="#tab1" class="active">Political</a></li>
+                  <li><a href="#tab2">Economic</a></li>
+                  <li><a href="#tab3">Technology</a></li>
+				  <li><a href="#tab4">Collaborators</a></li>
+				  <li><a href="#tab5">Competitors</a></li>
+				  <li><a href="#tab6">P75I</a></li>
+				  <li><a href="#tab7">Submarine</a></li>
+                </ul>
+                <section id="first-tab-group" class="tabgroup">
+                    <div id="tab1">
+                        <ul>
+							{% for i in articles %}
+									{% if i.portion == 1 %}
+									<li>
+										<div class="item box-hidden">
+										   <img src="{{baseUrl}}{{i.img}}" alt="">
+											<div class="text-content">
+												<h4>{{i.title}}</h4>
+												<span>{{i.date}}</span>
+												<p>{{i.summary}}</p>
+												
+												<div class="accent-button button">
+													<a href="{{i.lnk}}">Continue Reading</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									{% endif %}
+							{% endfor %}
+                            <li>
+                                <!--<a href="#" id="load0" class="btn btn-load btn-info">View More</a>-->
+								<div class="load0 btn btn-info">Show more</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="tab2" >
+                        <ul>
+							{% for i in articles %}
+									{% if i.portion == 2 %}
+									<li>
+										<div class="item box-hidden1">
+										   <img src="{{baseUrl}}{{i.img}}" alt="">
+											<div class="text-content">
+												<h4>{{i.title}}</h4>
+												<span>{{i.date}}</span>
+												<p>{{i.summary}}</p>
+												
+												<div class="accent-button button">
+													<a href="{{i.lnk}}">Continue Reading</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									{% endif %}
+							{% endfor %}
+                            <li>
+                                <!--<a href="#" id="load1" class="btn btn-load btn-info">View More</a>-->
+								<div class="load1 btn btn-info">Show more</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="tab3" >
+                        <ul>
+							{% for i in articles %}
+									{% if i.portion == 3 %}
+									<li>
+										<div class="item box-hidden2">
+										   <img src="{{baseUrl}}{{i.img}}" alt="">
+											<div class="text-content">
+												<h4>{{i.title}}</h4>
+												<span>{{i.date}}</span>
+												<p>{{i.summary}}</p>
+												
+												<div class="accent-button button">
+													<a href="{{i.lnk}}">Continue Reading</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									{% endif %}
+							{% endfor %}
+                            <li>
+                                <!--<a href="#" id="load2" class="btn btn-load btn-info">View More</a>-->
+								<div class="load2 btn btn-info">Show more</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="tab4" >
+                        <ul>
+							{% for i in articles %}
+									{% if i.portion == 4 %}
+									<li>
+										<div class="item box-hidden3">
+										   <img src="{{baseUrl}}{{i.img}}" alt="">
+											<div class="text-content">
+												<h4>{{i.title}}</h4>
+												<span>{{i.date}}</span>
+												<p>{{i.summary}}</p>
+												
+												<div class="accent-button button">
+													<a href="{{i.lnk}}">Continue Reading</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									{% endif %}
+							{% endfor %}
+                            <li>
+                                <!--<a href="#" id="load3" class="btn btn-load btn-info">View More</a>-->
+								<div class="load3 btn btn-info">Show more</div>
+                            </li>
+                        </ul>
+                    </div>
+					<div id="tab5" >
+                        <ul>
+							{% for i in articles %}
+									{% if i.portion == 5 %}
+									<li>
+										<div class="item box-hidden4">
+										   <img src="{{baseUrl}}{{i.img}}" alt="">
+											<div class="text-content">
+												<h4>{{i.title}}</h4>
+												<span>{{i.date}}</span>
+												<p>{{i.summary}}</p>
+												
+												<div class="accent-button button">
+													<a href="{{i.lnk}}">Continue Reading</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									{% endif %}
+							{% endfor %}
+                            <li>
+                                <!--<a href="#" id="load4" class="btn btn-load btn-info">View More</a>-->
+								<div class="load4 btn btn-info">Show more</div>
+                            </li>
+                        </ul>
+                    </div>
+					<div id="tab6" >
+                        <ul>
+							{% for i in articles %}
+									{% if i.portion == 6 %}
+									<li>
+										<div class="item box-hidden5">
+										   <img src="{{baseUrl}}{{i.img}}" alt="">
+											<div class="text-content">
+												<h4>{{i.title}}</h4>
+												<span>{{i.date}}</span>
+												<p>{{i.summary}}</p>
+												
+												<div class="accent-button button">
+													<a href="{{i.lnk}}">Continue Reading</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									{% endif %}
+							{% endfor %}
+                            <li>
+                                <!--<a href="#" id="load5" class="btn btn-load btn-info">View More</a>-->
+								<div class="load5 btn btn-info">Show more</div>
+                            </li>
+                        </ul>
+                    </div>
+					<div id="tab7" >
+                        <ul>
+							{% for i in articles %}
+									{% if i.portion == 7 %}
+									<li>
+										<div class="item box-hidden6">
+										   <img src="{{baseUrl}}{{i.img}}" alt="">
+											<div class="text-content">
+												<h4>{{i.title}}</h4>
+												<span>{{i.date}}</span>
+												<p>{{i.summary}}</p>
+												
+												<div class="accent-button button">
+													<a href="{{i.lnk}}">Continue Reading</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									{% endif %}
+							{% endfor %}
+                            <li>
+                                <!--<a href="#" id="load6" class="btn btn-load btn-info">Show more</a>-->
+								<div class="load6 btn btn-info">Show more</div>
+                            </li>
+                        </ul>
+                    </div>
+                </section> 
+            </div>
+        </div>
+    </div>
+</section>
